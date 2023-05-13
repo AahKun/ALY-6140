@@ -395,7 +395,7 @@ def main_function_Group1_Part2(df_clean):
         # Show the plot
         plt.show()
         
-        #%% Plot 8 - COVID-19 Deaths by Region (bar plot)
+        #%% Plot 8 - COVID-19 Deaths by Sex and Region (bar plot)
         # Group by state and gender
         df_grouped = df_clean.groupby(['Sex', 'Region'])['COVID-19 Deaths'].sum().reset_index()
         
