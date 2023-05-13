@@ -195,7 +195,7 @@ def main_function_Group1_Part1(df_clean):
         ax.grid(True, color='gray', linestyle='--', linewidth=0.5)
         
         # Apply the function to the y-axis tick labels
-        formatter = ticker.FuncFormatter(format_K_M(0))
+        formatter = ticker.FuncFormatter(format_K_M(1))
         plt.gca().yaxis.set_major_formatter(formatter)
         
         
