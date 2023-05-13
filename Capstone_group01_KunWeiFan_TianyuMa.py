@@ -676,7 +676,7 @@ def main_function_Group1_Part2(df_clean):
         # Print the summary of the model
         print("OLS Regression Model of COVID-19 Deaths by Age Group:\n",model.summary(alpha=0.05))
         
-        #y=0.1290+1.5288D_1+5.2814+D_2+14.9068+D_3+35.8427D_4+58.7592D_5+68.6160D_6+71.0842D_7
+        #y=0.1290+1.5288D_1+5.2814D_2+14.9068D_3+35.8427D_4+58.7592D_5+68.6160D_6+71.0842D_7
         
         #%% success end the main function
         return 'Success End Main Function Part2'    
